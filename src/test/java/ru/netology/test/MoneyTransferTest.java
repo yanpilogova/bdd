@@ -94,7 +94,7 @@ public class MoneyTransferTest {
     }
 
 
-    //@Test
+    @Test
     void shouldTransferMoneyFromSecondToFirstCardsUnderLimit() {
         var transferAmount = 100500;
         var dashboardBefore = new LoginPage()
